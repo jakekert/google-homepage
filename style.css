@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+#user-icon {
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
