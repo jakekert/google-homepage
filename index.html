@@ -6,25 +6,61 @@
     </head>
 
     <body>
-        <header>
-            <a href=''>About</a>
-            <a href=''>Store</a>
-            <a href=''>Gmail</a>
-            <a href=''>Images</a>
-            <a href=''><img src="/black-24dp/1x/sharp_apps_black_24dp.png"></a>
-            <a href='https://github.com/jakekert'><img id="user-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I4eLt0rTqs1zpRAkCubWc-P2wYc2VO0moeBtihqeA=s192-c-mo"></a>
+        <header class="header-container">
+            <div class="header-box1">
+                <a href=''>About</a>
+                <a href=''>Store</a>
+            </div>
+            <div>
+                <a class="header-box2" href=''>Gmail</a>
+                <a class="header-box2" href=''>Images</a>
+            </div>
+            <div>
+                <a class="header-box2" href=''><img src="/black-24dp/1x/sharp_apps_black_24dp.png"></a>
+            </div>
+            <div id="user-icon-div">
+                <a class="header-box2" href='https://github.com/jakekert'><img id="user-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I4eLt0rTqs1zpRAkCubWc-P2wYc2VO0moeBtihqeA=s192-c-mo"></a>
+            </div>
         </header>
-        <div id="search">
-            <img id="logo" src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-            <form id="search-form">
-                <label for="searchbar"></label>
-                <input type="text" id="search" name="search"><br>
-                <label for="google-search-button"></label>
-                <input type="button" value="Google Search">
-                <label for="feeling-lucky-button"></label>
-                <input type="button" value="I'm Feeling Lucky">
-            </form>
+        <div class="logo-container">
+            <img src="https://web.archive.org/web/20191130234759im_/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         </div>
+        <div class="search-container">
+            <div>
+                <form class="search-box">
+                    <label for="searchbar"></label>
+                    <input type="text" id="search" name="search">
+                </form>
+                <form class="search-button-container">
+                    <div>
+                        <label for="google-search-button"></label>
+                        <input type="button" value="Google Search">
+                    </div>
+                    <div>
+                        <label for="feeling-lucky-button"></label>
+                        <input type="button" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-top-container">
+                <div class="footer-box">
+                    <a>Carbon neutral since 2007</a>
+                </div>
+            </div>
+            <div class="footer-bottom-container">
+                <div class="footer-bottom-subcontainer-1">
+                    <a>Advertising</a>
+                    <a>Business</a>
+                    <a>How Search Works</a>
+                </div>
+                <div class="footer-bottom-subcontainer-2">
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                    <a>Settings</a>
+                </div>
+            </div>
+        </footer>
     </body>
-
 </html>
