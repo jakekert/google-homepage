@@ -3,8 +3,23 @@
     <head>
         <title>Google Clone</title>
         <link href="style.css" rel="stylesheet">
+        <link href="header-style.css" rel="stylesheet">
+        <link href="button-style.css" rel="stylesheet">
+        <link href="footer-style.css" rel="stylesheet">
     </head>
     <body>
+        <ul class="header">
+            <div class="header-left">
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </div>
+            <div class="header-right">
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a id="apps-icon" href=""><img src="black-24dp/1x/sharp_apps_black_24dp.png"></a></li>
+                <li><a href="https://github.com/jakekert"><img src="user-icon.jpeg"></a></li>
+            </div>
+        </ul>
         <div class="logo-container">
             <a href=""><img src="google-logo.png" alt="Google Logo"></a>
         </div>
@@ -16,5 +31,34 @@
             </form>
             <img src="black-24dp (1) 2/1x/sharp_mic_black_24dp.png" alt="Dictate Search Icon">
         </div>
+        <div class="buttons">
+            <div>
+                <form action="">
+                    <input type="submit" value="Google Search">
+                </form>
+            </div>
+            <div>
+                <form action="">
+                    <input type="submit" value="I'm Feeling Lucky">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="top">
+                <p>Carbon neutral since 2007</p>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search Works</a>
+                </div>
+                <div class="bottom-right">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

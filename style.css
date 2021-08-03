@@ -1,7 +1,11 @@
+body {
+    margin: 0;
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
-    padding-top: 7em;
+    padding-top: 9em;
     padding-bottom: 1em;
 }
 
@@ -12,7 +16,8 @@
     border-width: 1px;
     border-radius: 24px;
     margin: auto;
-    width: 60%;
+    max-width: 500px;
+    min-width: 500px;
     padding: 10px;
 }
 .searchbar-container:hover{
@@ -21,8 +26,8 @@
 
 .searchbar-container input{
     border: 0px;
-    width: 28em;
-    height: 1.5em;
+    width: 420px;
+    height: 100%;
     font-size: 12pt;
 }
 
