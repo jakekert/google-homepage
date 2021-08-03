@@ -42,12 +42,12 @@ a:hover {
     /* border: 1px #ccc solid; */
     display: flex;
     justify-content: center;
-    padding: 7em 7em 1em 7em;
+    padding: 12em 7em 1em 7em;
 }
 
 .logo-container img {
-    width: 408px;
-    height: 138px;
+    width: 306px;
+    height: 103px;
 }
 
 .search-container {
@@ -61,37 +61,51 @@ a:hover {
     justify-content: space-between;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer-top-container {
     background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: center;
-}
-
-.footer-top-container{
     justify-content: center;
     padding: 10px;
+    font-size: 11pt;
+}
+
+.footer-top-container a {
+    color: rgb(66, 66, 66);
+}
+
+.footer-bottom-container a {
+    color: rgb(66, 66, 66);
 }
 
 .footer-bottom-container{
     justify-content: center;
     padding: 10px;
+    font-size: 11pt;
 }
 
 .footer-bottom-container {
     background-color: rgb(235, 235, 235);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100%;
 }
 
 .footer-bottom-subcontainer-1 {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
+    width: 30%;
 }
 
 .footer-bottom-subcontainer-2 {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
+    width: 30%;
 }
