@@ -1,7 +1,8 @@
 a {
     color: black;
     text-decoration: none;
-    font-family: Roboto, arial, sans-serif;;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 11pt;
 }
 a:hover {
     text-decoration: underline;
@@ -50,11 +51,28 @@ a:hover {
     height: 103px;
 }
 
+input {
+    
+}
+
 .search-container {
     /* border: 1px #ccc solid; */
     display: flex;
     justify-content: center;
 }
+
+.search-container div {
+    /* border: 1px #ccc solid; */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 0px;
+}
+
+.search-box {
+    justify-content: center;
+}
+
 .search-button-container {
     /* border: 1px #ccc solid; */
     display: flex;
